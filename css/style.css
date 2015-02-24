@@ -58,6 +58,7 @@ div {
 
 /*links*/
 a { color: #4c5058 ;}
+
 /*links*/
 
 /*navigation section*/
@@ -91,6 +92,7 @@ a { color: #4c5058 ;}
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+    text-decoration: underline;
 }
 
 /*Introduction section*/
