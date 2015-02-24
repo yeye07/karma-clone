@@ -89,16 +89,14 @@ div {
     font-weight: 500;
 
 }
-.top-navigation .links li:hover {
+.top-navigation .links a:hover {
     cursor: pointer;
     color: #333333;
 }
 
 .top-navigation .links a:link{
-
     color: #4c5058 ; 
     text-decoration: none;
- 
 }
 
 /*Introduction section*/
