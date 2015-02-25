@@ -90,7 +90,8 @@ div {
      text-decoration: none;
 
 }
-.top-navigation .links li:hover {
+.top-navigation .links a:hover {
+    text-decoration:none;
     cursor: pointer;
     color: #838994;
 }
