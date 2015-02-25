@@ -56,9 +56,6 @@ div {
 }
 /*Typical default display property #*/
 
-/*links*/
-
-/*links*/
 
 /*navigation section*/
 .top-navigation {
@@ -89,7 +86,7 @@ div {
     font-weight: 500;
 
 }
-.top-navigation .links a:hover {
+.top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
 }
@@ -104,7 +101,7 @@ div {
     background-image: url('http://yeye07.github.io/karma-clone/images/first-background-copy.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     height: 45.938rem;
     overflow: auto;
 }
@@ -127,14 +124,14 @@ div {
     text-align: center;
     margin-top: 1.563rem;
 }
-/* I don't understand why the use of this part:.introduction .half {
-    width: 50%;
+.introduction .half {
+    width: 49%;
     padding: 0 0.938rem;
     display: inline-block;
     vertical-align: bottom;
     font-size: 1.125rem;
     line-height: 1.2;
-}*/
+}
 
 /*second section the cases*/
 
@@ -249,7 +246,7 @@ div {
  * button
  */
 
-.button {
+button {
     width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
@@ -260,7 +257,7 @@ div {
     color: white;
     font-size: 1.125rem;
 }
-.button:hover {
+button:hover {
     background-color: #d9400e;
     border-color: #cf3d0e;
     cursor: pointer;
