@@ -81,19 +81,18 @@ div {
     margin-left: 1.563rem;
 }
 .top-navigation .links li.active {
-    color: #4c5058;
+    color: #838994;
     font-weight: 500;
 }
 
 .top-navigation .links a:link {
-     color: #333333;
+     color: #838994;
      text-decoration: none;
-
 
 }
 .top-navigation .links li:hover {
     cursor: pointer;
-    color: #333333;
+    color: #838994;
 }
 
 /*Introduction section*/
