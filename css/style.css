@@ -1,5 +1,4 @@
-/*http://meyerweb.com/eric/tools/css/reset/*/-
-/*testing to see if it's working*/
+/*http://meyerweb.com/eric/tools/css/reset/*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -84,16 +83,10 @@ div {
 .top-navigation .links li.active {
     color: #4c5058;
     font-weight: 500;
-
 }
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
-}
-
-.top-navigation .links a:link{
-    color: #4c5058 ; 
-    text-decoration: none;
 }
 
 /*Introduction section*/
@@ -124,14 +117,14 @@ div {
     text-align: center;
     margin-top: 1.563rem;
 }
-.introduction .half {
-    width: 49%;
+/* I don't understand why the use of this part:.introduction .half {
+    width: 50%;
     padding: 0 0.938rem;
     display: inline-block;
     vertical-align: bottom;
     font-size: 1.125rem;
     line-height: 1.2;
-}
+}*/
 
 /*second section the cases*/
 
@@ -186,7 +179,7 @@ div {
     display: inline-block;
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
-    /*padding: 0.625rem 0;*/
+    padding: 0.625rem 0;
     text-align: center;
 }
 .social .icons > li:hover {
@@ -206,10 +199,6 @@ div {
     font-weight: 300;
     color: #838994;
 }
-
-.fa {
-    margin-top:15px;
-
 
 /**
  * Responsive Design
@@ -245,7 +234,6 @@ div {
 /**
  * button
  */
-
 button {
     width: 9.688rem;
     background-color: #f15a29;
