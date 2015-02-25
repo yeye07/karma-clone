@@ -92,6 +92,7 @@ div {
 
 }
 .top-navigation .links li:hover {
+    background-color: #d9400e;
     cursor: pointer;
     color: #333333;
 }
